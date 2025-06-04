@@ -15,6 +15,8 @@
 
 ### How TFP Works
 
+![TinkerFlight Protocol for drones, aircraft and vehicles](./img/TinkerFlight-protocol-for-drones-with-mavlink.jpg)
+
 1. **Prepare two ESP32-based boards** (referred to as RF boards).
 
     * The first RF board (mounted on a drone, aircraft, or vehicle) can be connected to a flight controller via UART to forward MAVLink messages, or it can be used as a flight controller itself.
@@ -29,6 +31,12 @@
 5. **Connect to each board's Wi-Fi network** from two different devices (e.g., a phone and a laptop).
 
 6. **Open [http://tfp.local](http://tfp.local)** in a browser on each device. Select the protocol you'd like to use for communication between the two RF boards (e.g., between a drone and a laptop), and send a test message to verify the setup.
+
+---
+
+### Documentation
+
+More information and documentation about the TinkerFlight Protocol and TinkerFlight Controller can be found at [tinkerflight.com](https://tinkerflight.com).
 
 ---
 
